@@ -1,0 +1,67 @@
+main
+	width: 100vw
+	height: 100vh
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	padding: 80px 30px
+	background-image: url('../imageonline-co-overlayed-image.png')
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	&:after
+		content: ""
+		position: absolute
+		top: 0
+		z-index: 0
+		left: 0
+		bottom: 0
+		width: 60%
+		background: rgb(255,255,255)
+		background: linear-gradient(90deg, rgba(255,255,255,0.813813025210084) 80%, rgba(0,212,255,0) 100%)		
+	div
+		z-index: 1
+		width: 50%
+		height: 100
+		+f-column-start()
+		margin-right: auto
+		h2
+			font-size: 3.2rem
+			font-family: 'Poppins', sans-serif
+			color: #c3002f
+		button
+			height: auto
+			width: auto
+			z-index: 2
+			font-size: 0.7rem
+			background: #c3002f !important
+			color: #fff !important
+			padding: 5px
+			i
+				margin-left: 15px
+
+@media screen and (max-width: 780px)
+	main
+		width: 100vw
+		height: 100vh
+		display: flex
+		flex-direction: column
+		justify-content: start
+		align-items: center
+		padding: 80px 10px	
+		div
+			z-index: 1
+			width: 80%
+			+f-column-start()
+			margin-right: auto
+			h2
+				font-size: 3rem
+				font-family: 'Poppins', sans-serif
+				color: #c3002f
+			button
+				z-index: 2
+				font-size: 0.65rem
+				padding: 5px
+				i
+					margin-left: 10px

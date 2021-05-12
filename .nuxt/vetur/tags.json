@@ -1,0 +1,17 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header/Header.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/Home/Home.vue"
+  },
+  "VehiculosVehiculoCard": {
+    "description": "Auto imported from components/Vehiculos/VehiculoCard.vue"
+  },
+  "Vehiculos": {
+    "description": "Auto imported from components/Vehiculos/Vehiculos.vue"
+  }
+}

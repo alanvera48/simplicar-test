@@ -1,0 +1,23 @@
+[
+  {
+    "name": "vehiculos",
+    "path": "/vehiculos",
+    "component": "C:\\\\Users\\\\Admin\\\\Desktop\\\\Simplicar test Alan\\\\pages\\\\vehiculos\\\\index.vue",
+    "chunkName": "pages/vehiculos/index",
+    "_name": "_7f4b8678"
+  },
+  {
+    "name": "vehiculos-id",
+    "path": "/vehiculos/:id",
+    "component": "C:\\\\Users\\\\Admin\\\\Desktop\\\\Simplicar test Alan\\\\pages\\\\vehiculos\\\\_id.vue",
+    "chunkName": "pages/vehiculos/_id",
+    "_name": "_3418a02c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Admin\\\\Desktop\\\\Simplicar test Alan\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_e44945bc"
+  }
+]

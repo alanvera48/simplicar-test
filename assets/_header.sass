@@ -1,0 +1,86 @@
+header
+	width: 100vw
+	height: 70px
+	background: transparent
+	+f-row()
+	position: absolute
+	z-index: 2
+	img
+		width: 100px
+		height: 70px
+		margin-right: auto
+	nav
+		margin-right: 50%
+		h2
+			display: none
+		ul
+			+f-row()
+			li
+				margin-right: 10px
+				width: auto
+				a
+					font-size: 	0.9rem
+					font-weight: 200
+					color: #5A5757
+					text-decoration: none
+					cursor: pointer
+					transition: all .5s ease
+					&:hover
+						color: #c3002f
+
+	.input
+		margin-right: 30px
+		width: 300px
+		div
+			background: white
+			border-radius: 5px
+			width: 100%
+			height: auto
+			i
+				color: #000
+			input
+				width: 80%
+				border: none
+				outline: none
+				font-size: 0.8rem
+				&:placeholder
+					color: #D1CCCC
+
+
+@media screen and (max-width: 780px)
+	header
+		nav
+			margin: 0
+			position: absolute
+			width: 100px	
+			height: 100vh
+			background: #c3002f
+			top: 0px
+			left: 0px
+			z-index: 3
+			+f-column-start-center()
+			transform: translateX(-100%)
+			transition: all 0.5s ease-in-out
+			h2
+				display: block
+				color: #fff
+				margin-top: 60px
+			ul
+				padding: 0 !important
+				+f-column()
+				text-align: center
+				li
+					margin-right: 0
+					margin-top: 20px
+					a
+						color: #fff
+						font-size: 0.7rem
+		.input
+			display: none
+		.toggle
+			color: #5A5757
+			display: block
+			margin-right: 30px
+			z-index: 3
+
+

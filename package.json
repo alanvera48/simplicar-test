@@ -1,0 +1,27 @@
+{
+  "name": "Simplicar-test-Alan",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "proxy": "lcp --proxyUrl https://4my1q6hsyo.api.quickmocker.com"
+  },
+  "author": "@alanvera48",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@nuxtjs/axios": "^5.13.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "local-cors-proxy": "^1.1.0",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@nuxtjs/fontawesome": "^1.1.2"
+  }
+}

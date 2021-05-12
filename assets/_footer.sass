@@ -1,0 +1,65 @@
+footer
+	width: 100%
+	height: auto
+	padding: 12px 30px
+	+f-column()
+	background: #000
+	color: #fff
+	.title-footer
+		margin-right: auto
+		font-family: 'Poppins', sans-serif
+		font-size: 0.8rem
+		margin-bottom: 10px 
+		span
+			font-weight: 200 !important
+			font-family: sans-serif
+	.block-2
+		width: 100%
+		margin-bottom: auto
+		+f-row()
+		div
+			width: auto
+			+f-column-start()
+			text-align: start
+			margin-right: auto
+			margin-bottom: auto
+			h5
+				font-size: 0.7rem
+				font-family: 'Poppins', sans-serif
+				font-weight: 200 !important
+			ul
+				padding: 0 !important
+				margin-top: 10px
+				li
+					cursor: pointer
+					font-size: 0.7rem
+			.social-media
+				+f-row()
+				li
+					margin-right: 10px
+					font-family: 'Poppins', sans-serif
+					font-size: 0.7rem
+					cursor: pointer
+	hr
+		width: 100%
+		height: 3px
+		background: #B2B2B2
+	p
+		margin-right: auto
+		color: #ACA6A6
+		font-size: 0.6rem
+
+
+@media screen and (max-width: 780px)
+	footer
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		text-align: center
+		.block-2
+			width: 100%
+			margin-bottom: auto
+			+f-column()
+			
+	
